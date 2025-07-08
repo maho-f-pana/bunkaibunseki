@@ -6,7 +6,7 @@ from tkinter import filedialog
 root = tk.Tk()
 root.withdraw()  # メインウィンドウを非表示にする
 
-# 入力用のExcelファイルを選択
+# 入力用のExcelファイル(video_analyze2.pyで出力したもの)を選択
 input_file_path = filedialog.askopenfilename(title="入力用のExcelファイルを選択", filetypes=[("Excel files", "*.xlsx;*.xls")])
 if not input_file_path:
     print("入力用のファイルが選択されませんでした。")
