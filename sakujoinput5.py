@@ -30,7 +30,7 @@ if output_file_path:
 else:
     print("保存先のファイルが指定されませんでした。")
 
-# 辞書用のExcelファイルを選択
+# 辞書用のExcelファイルを選択(今回は制御基板のファイル)
 dict_file_path = filedialog.askopenfilename(title="辞書用のExcelファイルを選択", filetypes=[("Excel files", "*.xlsx;*.xls")])
 if not dict_file_path:
     print("辞書用のファイルが選択されませんでした。")
